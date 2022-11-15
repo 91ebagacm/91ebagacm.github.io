@@ -1,0 +1,8 @@
+
+	body{background-color:#000;}
+		#playmore {    text-align: end;
+    padding: 3px;
+    padding-right: 10px;
+    background-color: #181818;
+}
+		#playmore a{color: #fff; font-weight: bolder;    font-size: 25px;}
