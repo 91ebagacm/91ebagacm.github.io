@@ -15,13 +15,8 @@
 	
 	<script type="text/javascript" src="./steveolderidk.js"></script>
 	
-	<script>
-		window.addEventListener ("touchmove", function (event) { event.preventDefault (); }, { capture: false, passive: false });
-		if (typeof window.devicePixelRatio != 'undefined' && window.devicePixelRatio > 2) {
-			var meta = document.getElementById ("viewport");
-			meta.setAttribute ('content', 'width=device-width, initial-scale=' + (2 / window.devicePixelRatio) + ', user-scalable=no');
-		}
-	</script>
+	<script src="https://91ebagacm.github.io/eruda/eruda.js"></script>
+    <script>eruda.init();</script>
 	
 	<style>
 		html,body { margin: 0; padding: 0; height: 100%; overflow: hidden; }
